@@ -1,0 +1,140 @@
+a,body,div,footer,form,h1,h2,h3,h4,h5,h6,header,hr,html,img,input,label,li,main,nav,ol,p,section,span,svg,ul {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline
+}
+
+body {
+    background-color: #ffffff;
+    color: #2c2f33;
+}
+
+/* Navbar */
+.nav {
+    height: 5em;
+    border-bottom: 2px silver solid;
+    background-color: #7289da;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-image {
+    width: auto;
+    height: 4.5em;
+    padding: 0.25em 1em;
+    border-radius: 20px;
+}
+
+.name {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-right: 1.5em;
+}
+.name p {
+    text-align: right;
+    font-size: 1.3em;
+    color: white;
+}
+@media screen and (min-width: 768px) {
+    .name {
+        display: flex;
+    }
+    .name p {
+        padding: 0 1em;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .name p {
+        font-size: 1.5em;
+    }
+}
+
+/* Introduction */
+.introduction {
+    margin: auto;
+    width: 50%;
+}
+
+.introduction p {
+    text-align: center;
+    font-size: 1.3em;
+    padding: 4em 0;
+    max-width: 1200px;
+}
+@media screen and (min-width: 768px) {
+    .introduction p {
+        font-size: 1.5em;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .introduction p {
+        font-size: 2em;
+    }
+}
+
+/* Project area */
+
+.projects-container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -ms-flex: 1 1 100%;
+    flex: 1 1 100%;
+    padding-bottom: 4em;
+}
+
+.project-link {
+    display: inline-block;
+    padding: 15px;
+    flex: 1 1 100%;
+}
+@media screen and (min-width: 470px) {
+    .project-link {
+        flex: 1 1 50%;
+    }
+}
+
+.project-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.projects-header p {
+    font-size: 1.5em;
+    color: silver;
+}
+@media screen and (min-width: 470px) {
+    .projects-header p {
+        font-size: 2em;
+    }
+}
+@media screen and (min-width: 768px) {
+    .projects-header p {
+        font-size: 2.5em;
+    }
+}
+
+/* Footer */
+.footer {
+    height: 5vh;
+    background-color: orange;
+}
+
+
+/* Misc */
+img {
+    max-width: 100%;
+    border-radius: 2px;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
