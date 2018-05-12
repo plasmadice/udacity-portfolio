@@ -214,14 +214,17 @@ a {
     background-image: url(../images/github.svg);
     background-size: 100% 100%;
 }
+
 .linkedin {
     background-image: url(../images/linkedin.svg);
     background-size: 100% 100%;
 }
+
 .twitter {
     background-image: url(../images/twitter.svg);
     background-size: 100% 100%;
 }
+
 .email {
     background-image: url(../images/gmail.svg);
     background-size: 100% 100%;
