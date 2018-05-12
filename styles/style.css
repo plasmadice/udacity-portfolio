@@ -101,21 +101,23 @@ a {
     width: 50%;
 }
 
-.introduction p {
+.quote {
     text-align: center;
     font-size: 1.5em;
     padding: 1.5em 0;
     max-width: 1200px;
 }
-@media screen and (min-width: 768px) {
-    .introduction p {
+@media screen and (min-width: 1200px) {
+    .quote {
+        font-size: 2em;
+    }
+    .quote-author {
         font-size: 1.5em;
     }
 }
-@media screen and (min-width: 1200px) {
-    .introduction p {
-        font-size: 2em;
-    }
+
+.quote-author {
+    text-align: right;
 }
 
 /* Project area */
@@ -210,12 +212,15 @@ a {
 
 .github {
     background-image: url(../images/github.svg);
+    background-size: 100% 100%;
 }
 .linkedin {
     background-image: url(../images/linkedin.svg);
+    background-size: 100% 100%;
 }
 .twitter {
     background-image: url(../images/twitter.svg);
+    background-size: 100% 100%;
 }
 .email {
     background-image: url(../images/gmail.svg);
